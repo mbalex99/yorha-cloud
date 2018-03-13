@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.7.0)
+  - AlamofireSwiftyJSON (1.0.1):
+    - Alamofire (~> 4.0)
+    - SwiftyJSON (~> 4.0)
+  - Cartography (3.0.1)
+  - Eureka (4.1.0)
+  - MessageViewController (0.1.1)
+  - Permission (2.0.4):
+    - Permission/Core (= 2.0.4)
+  - Permission/Core (2.0.4)
+  - Proposer (1.2.0)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+  - RealmSwift (3.1.1):
+    - Realm (= 3.1.1)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
+  - SwiftHEXColors (1.1.1)
+  - SwiftyJSON (4.0.0)
+  - SWXMLHash (4.6.0)
+  - THLabel (1.4.8)
+
+DEPENDENCIES:
+  - AlamofireSwiftyJSON (~> 1.0.1)
+  - Cartography (~> 3.0.1)
+  - Eureka (~> 4.1.0)
+  - MessageViewController (~> 0.1.1)
+  - Permission (~> 2.0.4)
+  - Proposer (~> 1.2.0)
+  - RealmSwift (= 3.1.1)
+  - SDWebImage (~> 4.3.2)
+  - SwiftHEXColors (~> 1.1.1)
+  - SWXMLHash (~> 4.6.0)
+  - THLabel (~> 1.4.8)
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AlamofireSwiftyJSON: ad896b68b586aea5de8ddba641ad3b402b8d5511
+  Cartography: f8c899bb0f5cf20758644a8eea59a75e98a03a5d
+  Eureka: 5770ef95bbbbe52f8abbc0d9bea6ee8282c50209
+  MessageViewController: ee8b83e59faf8ed6368dcf39b2a48118134c3ce2
+  Permission: 6853b9694e66a6c9197468c66d1935c3629cbf9c
+  Proposer: 722fe61822b89f551ae10afe8314067f98c39c28
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  SwiftHEXColors: 9681e756dc78a99ae97f277165b3f5e33b087553
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SWXMLHash: 3c39a53723202800e9e1a87f14b2fe7ac1da98ec
+  THLabel: a2ca21c06cd7daba5c0c6d3095d48f6c137a3d80
+
+PODFILE CHECKSUM: a11e2487586a24c55465c37e4bb87939e70a44c0
+
+COCOAPODS: 1.4.0

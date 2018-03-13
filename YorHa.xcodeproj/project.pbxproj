@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA3E719CEBDCFF4A1AD827E /* Pods_YorHa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB7EB303553DBB818004B22 /* Pods_YorHa.framework */; };
+		E36D473D205658F5000C211E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D473C205658F5000C211E /* AppDelegate.swift */; };
+		E36D473F205658F5000C211E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D473E205658F5000C211E /* WelcomeViewController.swift */; };
+		E36D4744205658F5000C211E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36D4743205658F5000C211E /* Assets.xcassets */; };
+		E36D4747205658F5000C211E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E36D4745205658F5000C211E /* LaunchScreen.storyboard */; };
+		E36D474F20565F33000C211E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D474E20565F33000C211E /* MapViewController.swift */; };
+		E36D47512056610A000C211E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47502056610A000C211E /* Constants.swift */; };
+		E36D475320566B73000C211E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D475220566B73000C211E /* String+Extensions.swift */; };
+		E36D475520568801000C211E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D475420568801000C211E /* User.swift */; };
+		E36D4757205688F6000C211E /* Realm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D4756205688F5000C211E /* Realm+Extensions.swift */; };
+		E36D47592056A4E6000C211E /* SpritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47582056A4E6000C211E /* SpritesService.swift */; };
+		E36D475B2056A7A7000C211E /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D475A2056A7A7000C211E /* Array+Extensions.swift */; };
+		E36D47602056BD12000C211E /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D475F2056BD12000C211E /* UserAnnotation.swift */; };
+		E36D47622057C59C000C211E /* SpritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47612057C59C000C211E /* SpritesViewController.swift */; };
+		E36D47642057C5B5000C211E /* SpriteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47632057C5B5000C211E /* SpriteImageView.swift */; };
+		E36D47662057D648000C211E /* PostThoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47652057D648000C211E /* PostThoughtViewController.swift */; };
+		E36D47682057D911000C211E /* ThoughtsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D47672057D911000C211E /* ThoughtsListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FB7EB303553DBB818004B22 /* Pods_YorHa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YorHa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E8DC1A11266CA99A0898C0 /* Pods-YorHa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YorHa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YorHa/Pods-YorHa.debug.xcconfig"; sourceTree = "<group>"; };
+		E36D4739205658F5000C211E /* YorHa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YorHa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36D473C205658F5000C211E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E36D473E205658F5000C211E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E36D4743205658F5000C211E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E36D4746205658F5000C211E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E36D4748205658F5000C211E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36D474E20565F33000C211E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E36D47502056610A000C211E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E36D475220566B73000C211E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E36D475420568801000C211E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E36D4756205688F5000C211E /* Realm+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+Extensions.swift"; sourceTree = "<group>"; };
+		E36D47582056A4E6000C211E /* SpritesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritesService.swift; sourceTree = "<group>"; };
+		E36D475A2056A7A7000C211E /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		E36D475F2056BD12000C211E /* UserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
+		E36D47612057C59C000C211E /* SpritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritesViewController.swift; sourceTree = "<group>"; };
+		E36D47632057C5B5000C211E /* SpriteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteImageView.swift; sourceTree = "<group>"; };
+		E36D47652057D648000C211E /* PostThoughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostThoughtViewController.swift; sourceTree = "<group>"; };
+		E36D47672057D911000C211E /* ThoughtsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsListViewController.swift; sourceTree = "<group>"; };
+		F54FA2E9584FEC68128228F0 /* Pods-YorHa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YorHa.release.xcconfig"; path = "Pods/Target Support Files/Pods-YorHa/Pods-YorHa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E36D4736205658F5000C211E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA3E719CEBDCFF4A1AD827E /* Pods_YorHa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE4D3B6735CE0145295A26B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E8DC1A11266CA99A0898C0 /* Pods-YorHa.debug.xcconfig */,
+				F54FA2E9584FEC68128228F0 /* Pods-YorHa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D326E38F34765BEFFEF9B1EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FB7EB303553DBB818004B22 /* Pods_YorHa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E36D4730205658F5000C211E = {
+			isa = PBXGroup;
+			children = (
+				E36D473B205658F5000C211E /* YorHa */,
+				E36D473A205658F5000C211E /* Products */,
+				0BE4D3B6735CE0145295A26B /* Pods */,
+				D326E38F34765BEFFEF9B1EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E36D473A205658F5000C211E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36D4739205658F5000C211E /* YorHa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E36D473B205658F5000C211E /* YorHa */ = {
+			isa = PBXGroup;
+			children = (
+				E36D475C2056BCD9000C211E /* ViewControllers */,
+				E36D473C205658F5000C211E /* AppDelegate.swift */,
+				E36D4743205658F5000C211E /* Assets.xcassets */,
+				E36D4745205658F5000C211E /* LaunchScreen.storyboard */,
+				E36D4748205658F5000C211E /* Info.plist */,
+				E36D47502056610A000C211E /* Constants.swift */,
+				E36D475D2056BCEA000C211E /* Extensions */,
+				E36D475420568801000C211E /* User.swift */,
+				E36D47582056A4E6000C211E /* SpritesService.swift */,
+				E36D47632057C5B5000C211E /* SpriteImageView.swift */,
+			);
+			path = YorHa;
+			sourceTree = "<group>";
+		};
+		E36D475C2056BCD9000C211E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E36D473E205658F5000C211E /* WelcomeViewController.swift */,
+				E36D475E2056BCFB000C211E /* Map */,
+				E36D47612057C59C000C211E /* SpritesViewController.swift */,
+				E36D47652057D648000C211E /* PostThoughtViewController.swift */,
+				E36D47672057D911000C211E /* ThoughtsListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E36D475D2056BCEA000C211E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E36D475220566B73000C211E /* String+Extensions.swift */,
+				E36D4756205688F5000C211E /* Realm+Extensions.swift */,
+				E36D475A2056A7A7000C211E /* Array+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E36D475E2056BCFB000C211E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E36D474E20565F33000C211E /* MapViewController.swift */,
+				E36D475F2056BD12000C211E /* UserAnnotation.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E36D4738205658F5000C211E /* YorHa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36D474B205658F5000C211E /* Build configuration list for PBXNativeTarget "YorHa" */;
+			buildPhases = (
+				66EEDA0EF99C3DF209B337B3 /* [CP] Check Pods Manifest.lock */,
+				E36D4735205658F5000C211E /* Sources */,
+				E36D4736205658F5000C211E /* Frameworks */,
+				E36D4737205658F5000C211E /* Resources */,
+				96F9B048A25E27DCA1BF1EB9 /* [CP] Embed Pods Frameworks */,
+				AAE96B1AAEB404DA3DE6876B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YorHa;
+			productName = YorHa;
+			productReference = E36D4739205658F5000C211E /* YorHa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E36D4731205658F5000C211E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maximilian Alexander";
+				TargetAttributes = {
+					E36D4738205658F5000C211E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E36D4734205658F5000C211E /* Build configuration list for PBXProject "YorHa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E36D4730205658F5000C211E;
+			productRefGroup = E36D473A205658F5000C211E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E36D4738205658F5000C211E /* YorHa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E36D4737205658F5000C211E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36D4747205658F5000C211E /* LaunchScreen.storyboard in Resources */,
+				E36D4744205658F5000C211E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66EEDA0EF99C3DF209B337B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YorHa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F9B048A25E27DCA1BF1EB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YorHa/Pods-YorHa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageViewController/MessageViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Permission/Permission.framework",
+				"${BUILT_PRODUCTS_DIR}/Proposer/Proposer.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/THLabel/THLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Permission.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Proposer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/THLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YorHa/Pods-YorHa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE96B1AAEB404DA3DE6876B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YorHa/Pods-YorHa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E36D4735205658F5000C211E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36D47662057D648000C211E /* PostThoughtViewController.swift in Sources */,
+				E36D475320566B73000C211E /* String+Extensions.swift in Sources */,
+				E36D47642057C5B5000C211E /* SpriteImageView.swift in Sources */,
+				E36D475B2056A7A7000C211E /* Array+Extensions.swift in Sources */,
+				E36D47622057C59C000C211E /* SpritesViewController.swift in Sources */,
+				E36D473F205658F5000C211E /* WelcomeViewController.swift in Sources */,
+				E36D47682057D911000C211E /* ThoughtsListViewController.swift in Sources */,
+				E36D47592056A4E6000C211E /* SpritesService.swift in Sources */,
+				E36D475520568801000C211E /* User.swift in Sources */,
+				E36D47602056BD12000C211E /* UserAnnotation.swift in Sources */,
+				E36D474F20565F33000C211E /* MapViewController.swift in Sources */,
+				E36D4757205688F6000C211E /* Realm+Extensions.swift in Sources */,
+				E36D473D205658F5000C211E /* AppDelegate.swift in Sources */,
+				E36D47512056610A000C211E /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E36D4745205658F5000C211E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E36D4746205658F5000C211E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E36D4749205658F5000C211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E36D474A205658F5000C211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E36D474C205658F5000C211E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E8DC1A11266CA99A0898C0 /* Pods-YorHa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47H383S4Y;
+				INFOPLIST_FILE = YorHa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorha.yorha.YorHa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E36D474D205658F5000C211E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54FA2E9584FEC68128228F0 /* Pods-YorHa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G47H383S4Y;
+				INFOPLIST_FILE = YorHa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yorha.yorha.YorHa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E36D4734205658F5000C211E /* Build configuration list for PBXProject "YorHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36D4749205658F5000C211E /* Debug */,
+				E36D474A205658F5000C211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E36D474B205658F5000C211E /* Build configuration list for PBXNativeTarget "YorHa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36D474C205658F5000C211E /* Debug */,
+				E36D474D205658F5000C211E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E36D4731205658F5000C211E /* Project object */;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "yorha-runner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^4.1.2",
+    "@types/lodash": "^4.14.104",
+    "@types/node": "^9.4.7",
+    "@types/superagent": "^3.5.7",
+    "@types/xml2js": "^0.4.2",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "lodash": "^4.17.5",
+    "realm": "2.2.5",
+    "superagent": "^3.8.2",
+    "xml2js": "^0.4.19"
+  }
+}
